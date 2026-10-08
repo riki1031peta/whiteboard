@@ -654,6 +654,7 @@ watch([selectedId, tool, items], async () => {
     </v-stage>
 
     <div class="controls topbar">
+      <button @click="router.push('/')">← 一覧</button>
       <button :disabled="!ready" @click="undo">↶</button>
       <button :disabled="!ready" @click="redo">↷</button>
       <span>{{ Math.round(view.scale * 100) }}%</span>
