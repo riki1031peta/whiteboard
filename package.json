@@ -1,0 +1,19 @@
+{
+  "name": "whiteboard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "konva": "^10.7.1",
+    "nuxt": "^3.21.11",
+    "vue": "^3.5.40",
+    "vue-konva": "^4.0.1",
+    "vue-router": "^5.2.0"
+  }
+}
